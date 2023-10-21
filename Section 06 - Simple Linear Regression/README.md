@@ -36,7 +36,8 @@
 
 <code>Y = β<sub>0</sub> + β<sub>1</sub> * X</code>
 
-<code>Where:<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- Y is the dependent variable (the one we want to predict or explain).<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- X is the independent variable (the predictor or explanatory variable).<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- β<sub>0</sub> is the intercept (the value of Y when X is 0).<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- β<sub>1</sub> is the slope (the change in Y for a one-unit change in X).</code>
+<code>Where:
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- Y is the dependent variable (the one we want to predict or explain).<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- X is the independent variable (the predictor or explanatory variable).<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- β<sub>0</sub> is the intercept (the value of Y when X is 0).<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- β<sub>1</sub> is the slope (the change in Y for a one-unit change in X).</code>
 
 * The goal of the *OLS* method is to find the values of <code>β<sub>0</sub></code> and <code>β<sub>1</sub></code> that minimize the sum of squared differences between the observed values of `Y` (<code>Y<sub>i</sub></code>) and the predicted values (<code>Ŷ<sub>i</sub></code>) from the linear equation for all data points (`i`) in the dataset.
 
