@@ -20,11 +20,7 @@
 
 * The equation for a simple linear regression model is typically represented as:
 
-<code>
-
-y = β<sub>0</sub> + β<sub>1</sub> * x + ε
-
-</code>
+<code>y = β<sub>0</sub> + β<sub>1</sub> * x + ε</code>
 
 <code>
 
