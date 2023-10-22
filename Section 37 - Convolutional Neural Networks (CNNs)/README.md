@@ -1,5 +1,4 @@
 # Convolutional Neural Networks (CNNs)
-<hr>
 
 ## Plan of Attack
 
