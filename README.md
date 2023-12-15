@@ -1,6 +1,6 @@
 # Machine Learning A-Z: AI, Python & R + ChatGPT Bonus [2023]
 
-This repository contains the code for the algorithms implemented in the Udemy course "Machine Learning A-Z: AI, Python & R" by Hadelin de Ponteves and Kirill Eremenko.
+This repository contains the code for the algorithms implemented in the Udemy course *"Machine Learning A-Z: AI, Python & R"* by **Hadelin de Ponteves** and **Kirill Eremenko**.
 
 ## Course Overview
 
