@@ -28,13 +28,15 @@ The course and this repository cover the following algorithms:
 - Linear Regression
     - [Simple Linear Regression](https://github.com/gandharvk422/Machine_Learning_A-Z/tree/main/Section%2006%20-%20Simple%20Linear%20Regression)
     - [Multiple Linear Regression](https://github.com/gandharvk422/Machine_Learning_A-Z/tree/main/Section%2007%20-%20Multiple%20Linear%20Regression)
-- [Logistic Regression](https://github.com/gandharvk422/Machine_Learning_A-Z/tree/main/Section%2016%20-%20Logistic%20Regression)
+- [Polynomial Regression](https://github.com/gandharvk422/Machine_Learning_A-Z/tree/main/Section%2008%20-%20Polynomial%20Regression)
+- [Support Vector Regression(SVR)](https://github.com/gandharvk422/Machine_Learning_A-Z/tree/main/Section%2009%20-%20Support%20Vector%20Regression%20(SVR))
 - Decision Trees
     - [Decision Tree Regression](https://github.com/gandharvk422/Machine_Learning_A-Z/tree/main/Section%2010%20-%20Decision%20Tree%20Regression)
     - [Decision Tree Classification](https://github.com/gandharvk422/Machine_Learning_A-Z/tree/main/Section%2021%20-%20Decision%20Tree%20Classification)
 - Random Forests
     - [Random Forest Regression](https://github.com/gandharvk422/Machine_Learning_A-Z/tree/main/Section%2011%20-%20Random%20Forest%20Regression)
     - [Random Forest Classification](https://github.com/gandharvk422/Machine_Learning_A-Z/tree/main/Section%2022%20-%20Random%20Forest%20Classification)
+- [Logistic Regression](https://github.com/gandharvk422/Machine_Learning_A-Z/tree/main/Section%2016%20-%20Logistic%20Regression)
 - [K-Nearest Neighbors](https://github.com/gandharvk422/Machine_Learning_A-Z/tree/main/Section%2017%20-%20K-Nearest%20Neighbors%20(K-NN))
 - [Support Vector Machines](https://github.com/gandharvk422/Machine_Learning_A-Z/tree/main/Section%2018%20-%20Support%20Vector%20Machine%20(SVM))
 - [K-Means Clustering](https://github.com/gandharvk422/Machine_Learning_A-Z/tree/main/Section%2026%20-%20K-Means%20Clustering)
