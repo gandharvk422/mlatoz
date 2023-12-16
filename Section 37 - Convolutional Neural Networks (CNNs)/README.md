@@ -7,15 +7,15 @@
 
 * What are Convolutional Neural Networks?
 
-* Step 1 - Convolution Operation
+* **Step 1** - Convolution Operation
 
-* Step 1(b) - ReLU (Rectified Linear Unit) Layer
+* **Step 1(b)** - ReLU (Rectified Linear Unit) Layer
 
-* Step 2 - Pooling
+* **Step 2** - Pooling
 
-* Step 3 - Flattening
+* **Step 3** - Flattening
 
-* Step 4 - Full Connection
+* **Step 4** - Full Connection
 
 * Summary
 
