@@ -22,17 +22,17 @@
 
 &emsp;&emsp;&emsp;<code>y = β<sub>0</sub> + β<sub>1</sub> * x + ε</code>
 
-<code>Where:</code>
+&emsp;&emsp;&emsp;<code>Where:</code>
 
-<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- y is the dependent variable (the variable we want to predict).</code>
+&emsp;&emsp;&emsp;<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- y is the dependent variable (the variable we want to predict).</code>
 
-<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- x is the independent variable (the variable used to make predictions).</code>
+&emsp;&emsp;&emsp;<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- x is the independent variable (the variable used to make predictions).</code>
 
-<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- β<sub>0</sub> is the intercept, representing the value of y when x is zero.</code>
+&emsp;&emsp;&emsp;<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- β<sub>0</sub> is the intercept, representing the value of y when x is zero.</code>
 
-<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- β<sub>1</sub> is the slope of the regression line, indicating how much y changes for each unit change in x.</code>
+&emsp;&emsp;&emsp;<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- β<sub>1</sub> is the slope of the regression line, indicating how much y changes for each unit change in x.</code>
 
-<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- ε represents the error term, which accounts for the variability of y that is not explained by the regression line.</code>
+&emsp;&emsp;&emsp;<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- ε represents the error term, which accounts for the variability of y that is not explained by the regression line.</code>
 
 * The goal of simple linear regression is to estimate the values of `β`<sub>`0`</sub> and `β`<sub>`1`</sub> that minimize the sum of squared differences between the predicted values (`β`<sub>`0`</sub> `+ β`<sub>`1`</sub> `* x`) and the actual observed values of the dependent variable. This is usually done using a method called the *least squares approach*.
 
