@@ -44,37 +44,37 @@
 # Ordinary Least Squares
 * *Ordinary Least Squares (OLS)* is a method used in simple linear regression to estimate the parameters of a linear relationship between two variables. In simple linear regression, we have a dependent variable (`Y`) and an independent variable (`X`), and we want to find the best-fitting line that represents the linear relationship between them. The equation of the line is given by:
 
-<code>Y = β<sub>0</sub> + β<sub>1</sub> * X</code>
+&emsp;&emsp;&emsp;<code>Y = β<sub>0</sub> + β<sub>1</sub> * X</code>
 
-<code>Where:</code>
+&emsp;&emsp;&emsp;<code>Where:</code>
 
-<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- Y is the dependent variable (the one we want to predict or explain).</code>
+&emsp;&emsp;&emsp;<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- Y is the dependent variable (the one we want to predict or explain).</code>
 
-<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- X is the independent variable (the predictor or explanatory variable).</code>
+&emsp;&emsp;&emsp;<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- X is the independent variable (the predictor or explanatory variable).</code>
 
-<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- β<sub>0</sub> is the intercept (the value of Y when X is 0).</code>
+&emsp;&emsp;&emsp;<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- β<sub>0</sub> is the intercept (the value of Y when X is 0).</code>
 
-<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- β<sub>1</sub> is the slope (the change in Y for a one-unit change in X).</code>
+&emsp;&emsp;&emsp;<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- β<sub>1</sub> is the slope (the change in Y for a one-unit change in X).</code>
 
 * The goal of the *OLS* method is to find the values of <code>β<sub>0</sub></code> and <code>β<sub>1</sub></code> that minimize the sum of squared differences between the observed values of `Y` (<code>Y<sub>i</sub></code>) and the predicted values (<code>Ŷ<sub>i</sub></code>) from the linear equation for all data points (`i`) in the dataset.
 
 * Mathematically, the *OLS* estimates of <code>β<sub>0</sub></code> and <code>β<sub>1</sub></code> are obtained as follows:
 
-<code>β<sub>1</sub> = Σ((X<sub>i</sub> - X̄)(Y<sub>i</sub> - Ȳ)) / Σ((X<sub>i</sub> - X̄)<sup>2</sup>)</code>
+&emsp;&emsp;&emsp;<code>β<sub>1</sub> = Σ((X<sub>i</sub> - X̄)(Y<sub>i</sub> - Ȳ)) / Σ((X<sub>i</sub> - X̄)<sup>2</sup>)</code>
 
-<code>β<sub>0</sub> = Ȳ - β<sub>1</sub> * X̄</code>
+&emsp;&emsp;&emsp;<code>β<sub>0</sub> = Ȳ - β<sub>1</sub> * X̄</code>
 
-<code>Where:</code>
+&emsp;&emsp;&emsp;<code>Where:</code>
 
-<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- Σ represents the sum of.</code>
+&emsp;&emsp;&emsp;<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- Σ represents the sum of.</code>
 
-<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- X<sub>i</sub> is the value of the independent variable for the i<sup>th</sup> data point.</code>
+&emsp;&emsp;&emsp;<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- X<sub>i</sub> is the value of the independent variable for the i<sup>th</sup> data point.</code>
 
-<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- Y<sub>i</sub> is the value of the dependent variable for the i<sup>th</sup> data point.</code>
+&emsp;&emsp;&emsp;<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- Y<sub>i</sub> is the value of the dependent variable for the i<sup>th</sup> data point.</code>
 
-<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- X̄ is the mean of all X values.</code>
+&emsp;&emsp;&emsp;<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- X̄ is the mean of all X values.</code>
 
-<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- Ȳ is the mean of all Y values.</code>
+&emsp;&emsp;&emsp;<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- Ȳ is the mean of all Y values.</code>
 
 * The *OLS* method is called "least squares" because it minimizes the sum of the squared vertical distances between the observed data points and the regression line. The line obtained through *OLS* is the "best-fitting" line because it minimizes the total squared error between the observed values and the predicted values.
 
