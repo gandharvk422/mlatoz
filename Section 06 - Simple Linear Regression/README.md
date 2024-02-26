@@ -20,11 +20,11 @@
 
 * The equation for a simple linear regression model is typically represented as:
 
-<code>y = β<sub>0</sub> + β<sub>1</sub> * x + ε</code>
+&emsp;&emsp;&emsp;<code>y = β<sub>0</sub> + β<sub>1</sub> * x + ε</code>
 
 <code>Where:</code>
 
-<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- y is the dependent variable (the variable we want to predict).</code>
+<code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- y is the dependent variable (the variable we want to predict).</code>
 
 <code>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- x is the independent variable (the variable used to make predictions).</code>
 
