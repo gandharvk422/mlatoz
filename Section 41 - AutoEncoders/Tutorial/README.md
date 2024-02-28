@@ -152,7 +152,7 @@
 
 ## Denoising Autoencoders
 
-* *Denoising Autoencoder* is another regularization technique, which is here to combat the problem of when we have more nodes in the hidden layers than in the input layer.
+* *Denoising Autoencoder* is another regularization technique, which is here to combat the problem when we have more nodes in the hidden layers than in the input layer.
 
 * Denoising Autoencoder is a *Stochastic Autoencoder*.
 
