@@ -13,5 +13,5 @@ Excited to begin with you the Machine Learning journey!
 
 # Data Preprocessing
 * Data preprocessing is the process of cleaning and transforming raw data to make it suitable for analysis or machine learning tasks.
-* In the next notebook, data preprocessing steps include handling missing data using SimpleImputer and scaling numerical features using StandardScaler.
+* In the next notebook, data preprocessing steps include handling missing data using `SimpleImputer` and scaling numerical features using `StandardScaler`.
 <hr>
