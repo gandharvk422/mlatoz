@@ -27,7 +27,7 @@ In this part, you will understand and learn how to:
 
 * Bag-Of-Words
 
-* *Note:* We will <u>not</u> talk about Seq2Seq or Chatbots
+* *Note:* We will <u>not</u> talk about `Seq2Seq` or Chatbots
 <hr>
 
 ## Classical vs Deep Learning Models
