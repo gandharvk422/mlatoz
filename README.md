@@ -88,7 +88,7 @@
         <th>Simple Linear Regression</th>
         <td>Simple linear regression models the relationship between a single independent variable and a dependent variable using a linear function.</td>
         <td>When there is a linear relationship between two variables.</td>
-        <td>Predicting house prices based on area, temperature prediction based on time.</td>
+        <td>Predicting house prices based on area, temperature, and time.</td>
         <td>Simple and easy to understand, provides a baseline model.</td>
         <td>Limited to linear relationships, may not capture complex patterns.</td>
     </tr>
