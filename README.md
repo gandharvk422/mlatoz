@@ -389,6 +389,14 @@
         <td>Computationally expensive, may not scale well with high-dimensional hyperparameter spaces.</td>
     </tr>
     <tr>
+        <th>Boosting</th>
+        <td>Boosting is an ensemble learning technique that combines multiple weak learners (simple models) sequentially to build a strong learner.</td>
+        <td>Boosting is particularly useful when you have a large dataset and want to improve the performance of weak models.</td>
+        <td>Classification and regression tasks in various domains such as finance, healthcare, marketing, and e-commerce.</td>
+        <td>High predictive accuracy, robustness to overfitting, versatility, and handles imbalanced data well.</td>
+        <td>Computationally expensive, sensitive to noisy data, requires careful parameter tuning, and less interpretable.</td>
+    </tr>
+    <tr>
         <th>XGBoost</th>
         <td>XGBoost is an implementation of gradient boosting machines, a popular ensemble learning technique that builds a series of weak learners and combines them to make predictions.</td>
         <td>When dealing with structured/tabular data and aiming for high predictive accuracy.</td>
