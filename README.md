@@ -67,7 +67,6 @@
         <th>Applications</th>
         <th>Advantages</th>
         <th>Disadvantages</th>
-        <th>Code</th>
     </tr>
     <tr>
         <th>Data Preprocessing</th>
