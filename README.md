@@ -67,6 +67,7 @@
         <th>Applications</th>
         <th>Advantages</th>
         <th>Disadvantages</th>
+        <th>Code</th>
     </tr>
     <tr>
         <th>Data Preprocessing</th>
@@ -341,6 +342,30 @@
         <td>May lose some information, requires careful selection of the number of dimensions.</td>
     </tr>
     <tr>
+        <th>Principal Component Analysis (PCA)</th>
+        <td>PCA is a dimensionality reduction technique that identifies the directions (principal components) that maximize the variance in the data.</td>
+        <td>When dealing with high-dimensional data to reduce its dimensionality while preserving most of its variance.</td>
+        <td>Data visualization, noise reduction, feature extraction.</td>
+        <td>Reduces dimensionality while preserving information, removes correlated features.</td>
+        <td>Assumes linear relationships, may not perform well for non-linear data.</td>
+    </tr>
+    <tr>
+        <th>Linear Discriminant Analysis (LDA)</th>
+        <td>LDA is a dimensionality reduction technique used in classification tasks to find the feature subspace that maximizes class separability.</td>
+        <td>When performing classification tasks and reducing dimensionality.</td>
+        <td>Pattern recognition, feature extraction, classification.</td>
+        <td>Maximizes class separability, supervised dimensionality reduction.</td>
+        <td>Assumes normal distribution of data, sensitive to outliers.</td>
+    </tr>
+    <tr>
+        <th>Kernel PCA</th>
+        <td>Kernel PCA is a non-linear extension of PCA that uses kernel methods to project data into a higher-dimensional space before applying PCA.</td>
+        <td>When dealing with non-linear data structures and traditional PCA is not sufficient.</td>
+        <td>Non-linear dimensionality reduction, pattern recognition.</td>
+        <td>Handles non-linear relationships, captures complex structures in data.</td>
+        <td>Computational complexity increases with the size of the dataset, selection of appropriate kernel function is crucial.</td>
+    </tr>
+    <tr>
         <th>Model Selection</th>
         <td>Model selection involves choosing the best model from a set of candidate models based on some evaluation criterion.</td>
         <td>When comparing multiple models to determine which one performs best for a given task.</td>
@@ -365,36 +390,12 @@
         <td>Computationally expensive, may not scale well with high-dimensional hyperparameter spaces.</td>
     </tr>
     <tr>
-        <th>Principal Component Analysis (PCA)</th>
-        <td>PCA is a dimensionality reduction technique that identifies the directions (principal components) that maximize the variance in the data.</td>
-        <td>When dealing with high-dimensional data to reduce its dimensionality while preserving most of its variance.</td>
-        <td>Data visualization, noise reduction, feature extraction.</td>
-        <td>Reduces dimensionality while preserving information, removes correlated features.</td>
-        <td>Assumes linear relationships, may not perform well for non-linear data.</td>
-    </tr>
-    <tr>
-        <th>Linear Discriminant Analysis (LDA)</th>
-        <td>LDA is a dimensionality reduction technique used in classification tasks to find the feature subspace that maximizes class separability.</td>
-        <td>When performing classification tasks and reducing dimensionality.</td>
-        <td>Pattern recognition, feature extraction, classification.</td>
-        <td>Maximizes class separability, supervised dimensionality reduction.</td>
-        <td>Assumes normal distribution of data, sensitive to outliers.</td>
-    </tr>
-    <tr>
         <th>XGBoost</th>
         <td>XGBoost is an implementation of gradient boosting machines, a popular ensemble learning technique that builds a series of weak learners and combines them to make predictions.</td>
         <td>When dealing with structured/tabular data and aiming for high predictive accuracy.</td>
         <td>Regression, classification, ranking.</td>
         <td>High predictive accuracy, handles missing data, regularization.</td>
         <td>Requires careful tuning of hyperparameters, can be computationally expensive.</td>
-    </tr>
-    <tr>
-        <th>Kernel PCA</th>
-        <td>Kernel PCA is a non-linear extension of PCA that uses kernel methods to project data into a higher-dimensional space before applying PCA.</td>
-        <td>When dealing with non-linear data structures and traditional PCA is not sufficient.</td>
-        <td>Non-linear dimensionality reduction, pattern recognition.</td>
-        <td>Handles non-linear relationships, captures complex structures in data.</td>
-        <td>Computational complexity increases with the size of the dataset, selection of appropriate kernel function is crucial.</td>
     </tr>
 </table>
 
