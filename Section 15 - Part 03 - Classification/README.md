@@ -1,4 +1,5 @@
 # Part 03 - Classification
+<hr>
 
 * A supervised learning task where the goal is to assign input instances to a set of predefined categories or classes.
 
