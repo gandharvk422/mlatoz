@@ -19,6 +19,7 @@
 **Step 2**: Take the *K* nearest neighbors of the new data point, according to the *Euclidean distance*
 
 $$ Euclidean\space Distance\space =\space \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} $$
+
 &emsp;<span style="color: gray">Euclidean Distance = √(x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup></span>
 
 **Step 3**: Among these *K* neighbors, count the number of data points in each category
