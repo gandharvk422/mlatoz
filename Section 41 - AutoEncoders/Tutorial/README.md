@@ -52,6 +52,8 @@
 
 * They are actually a *Self-Supervised Deep Learning Algorithm*, because they are comparing to something on the end.
 
+* Self-supervised learning is when we have an unlabeled dataset (say text data), but we somehow figure out a way to build a supervised learning model out of it.
+
 * The hidden layer is also called as the *coding layer* or the *bottleneck*.
 <hr>
 
