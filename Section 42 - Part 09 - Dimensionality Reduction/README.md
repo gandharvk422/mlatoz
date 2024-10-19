@@ -15,6 +15,12 @@ There are two types of Dimensionality Reduction techniques:
 
 2. Feature Extraction
 
+```mermaid
+graph TD
+  A[Dimensionality Reduction Techniques] --> B[Feature Selection]
+  A --> B[Feature Extraction]
+```
+
 Feature Selection techniques are *Backward Elimination*, *Forward Selection*, *Bidirectional Elimination*, *Score Comparison* and more. We covered these techniques in Part 2 - Regression.
 
 In this part we will cover the following Extraction techniques:
@@ -23,6 +29,13 @@ In this part we will cover the following Extraction techniques:
 2. Linear Discriminant Analysis (LDA)
 
 3. Kernel PCA
+
+```mermaid
+graph TD
+  A[Feature Extraction Techniques] --> B[Principal Component Analysis #40;PCA#41;]
+  A --> C[Linear Discriminant Analysis #40;LDA#41;]
+  A --> D[Kernel PCA]
+```
 
 *Enjoy Machine Learning!*
 <hr>
