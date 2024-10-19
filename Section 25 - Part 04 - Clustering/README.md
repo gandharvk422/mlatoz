@@ -9,4 +9,10 @@
 * In this part, you will understand and learn how to implement the following Machine Learning Clustering models:
     1. K-Means Clustering
     2. Hierarchical Clustering
+
+```mermaid
+graph TD
+    A[Types of Clustering] --> B[K-Means Clustering]
+    A --> C[Hierarchical Clustering]
+```
 <hr>
