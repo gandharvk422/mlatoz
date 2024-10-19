@@ -18,7 +18,7 @@ There are two types of Dimensionality Reduction techniques:
 ```mermaid
 graph TD
   A[Dimensionality Reduction Techniques] --> B[Feature Selection]
-  A --> B[Feature Extraction]
+  A --> C[Feature Extraction]
 ```
 
 Feature Selection techniques are *Backward Elimination*, *Forward Selection*, *Bidirectional Elimination*, *Score Comparison* and more. We covered these techniques in Part 2 - Regression.
