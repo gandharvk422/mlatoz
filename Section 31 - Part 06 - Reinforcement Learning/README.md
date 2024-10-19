@@ -10,6 +10,12 @@ In this part, you will understand and learn how to implement the following Reinf
 1. `Upper Confidence Bound (UCB)`
 2. `Thompson Sampling`
 
+```mermaid
+graph TD
+  A[Reinforcement Learning Models] --> B[Upper Confidence Bound #40;UCB#41;]
+  A --> C[Thompson Sampling]
+```
+
 Also, a great complementary resource for this chapter is the following book (you will recognize the author):
 
 [Click Here]("https://www.amazon.com/Crash-Course-hands-introduction-reinforcement/dp/1838645357/ref=sr_1_1?crid=235YAFPX03J0Z&dchild=1&keywords=ai+crash+course&qid=1594476675&sprefix=ai+cr%2Caps%2C213&sr=8-1")
