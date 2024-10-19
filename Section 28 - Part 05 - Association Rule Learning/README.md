@@ -8,8 +8,14 @@
 
 
 In this part, you will understand and learn how to implement the following Association Rule Learning models:
-1. `Apriori`
-2. `Eclat`
+    1. `Apriori`
+    2. `Eclat`
+
+```mermaid
+graph TD
+  A[Association Rule Learning Models] --> B[Apriori]
+  A --> C[Eclat]
+```
 
 *Enjoy Machine Learning!*
 <hr>
