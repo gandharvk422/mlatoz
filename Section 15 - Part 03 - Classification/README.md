@@ -13,4 +13,15 @@
     5. Naive Bayes
     6. Decision Tree Classification
     7. Random Forest Classification
+
+```mermaid
+graph TD
+    A[Classification Models] --> B[Logistic Regression]
+    A --> C[K-Nearest Neighbors #40;K-NN#41;]
+    A --> D[Support Vector Machine #40;SVM#41;]
+    A --> E[Kernel SVM]
+    A --> F[Naive Bayes]
+    A --> G[Decision Tree Classification]
+    A --> H[Random Forest Classification]
+```
 <hr>
