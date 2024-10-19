@@ -13,4 +13,14 @@
         4. Support Vector Regression (SVR)
         5. Decision Tree Regression
         6. Random Forest Regression
+
+```mermaid
+graph TD
+    A[Regression Models] --> B[Simple Linear Regression]
+    A --> C[Multiple Linear Regression]
+    A --> D[Polynomial Regression]
+    A --> E[Support Vector Regression #40;SVR#41;]
+    A --> F[Decision Tree Regression]
+    A --> G[Random Forest Regression]
+```
 <hr>
